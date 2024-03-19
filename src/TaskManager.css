@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cde1e3; 
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+}
+
+.task-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.task-header {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.task-description {
+    color: #666;
+}
+
+.add-task-button {
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+.add-task-form {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px; 
+}
+
+.add-task-form input[type="text"],
+.add-task-form button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-task-form button {
+    margin-top: 10px;
+}
+
+.task-actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-right: 10px; 
+}
